@@ -21,7 +21,7 @@ const Upload = () => {
 
     const xhr = new XMLHttpRequest();
     
-    xhr.open('POST', 'https://event-api-4y3b.onrender.com/upload', true);
+    xhr.open('POST', 'https://api2-tq97.onrender.com/upload', true);
     
     xhr.upload.addEventListener('progress', (event) => {
       if (event.lengthComputable) {
